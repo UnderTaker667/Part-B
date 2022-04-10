@@ -9,8 +9,9 @@
 ---Потом пишем в новом окне терминала  rosrun beginner_tutorials Nodule2.py для запуска Nodule2 Подробнее описанно в отчете для чего каждый файл.  
 ---А так же можно написать в новом окне rosrun rqt_graph rqt_graph для запуска графа и просмотря связей между узлами  
 ---Теперь код---
+
+Listening 
 ```
-Listening  
 #!/usr/bin/env python  
 import rospy  
 from std_msgs.msg import Float32,String  
@@ -40,8 +41,9 @@ if __name__ == '__main__':
     	listener()  
     except rospy.ROSInterruptException:  
         pass  
-        
-Nodule2  
+ ```       
+Nodule2 
+```
 #!/usr/bin/env python  
 import rospy  
 from std_msgs.msg import Float32,String  
