@@ -8,7 +8,7 @@
 ---Полсе этого открываем новое окно терминала и пишем $ export TURTLEBOT3_MODEL=waffle; roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch в одну строку для запуска робота
 ---Потом пишем в новом окне терминала  rosrun beginner_tutorials Nodule2.py для запуска Nodule2 Подробнее описанно в отчете для чего каждый файл.
 ---А так же можно написать в новом окне rosrun rqt_graph rqt_graph для запуска графа и просмотря связей между узлами
----Теперь код
+---Теперь код---
 ----------Listening.py----------
 #!/usr/bin/env python
 import rospy
