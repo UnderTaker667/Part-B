@@ -10,7 +10,7 @@
 ---А так же можно написать в новом окне rosrun rqt_graph rqt_graph для запуска графа и просмотря связей между узлами  
 ---Теперь код---
 
-Listening 
+Listening.py
 ```
 #!/usr/bin/env python  
 import rospy  
