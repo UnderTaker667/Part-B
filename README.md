@@ -40,7 +40,7 @@ if __name__ == '__main__':
     	listener()  
     except rospy.ROSInterruptException:  
         pass  
-        ```
+        
 Nodule2  
 #!/usr/bin/env python  
 import rospy  
